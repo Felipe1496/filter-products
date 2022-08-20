@@ -1,9 +1,7 @@
 import { FC } from "react";
 import { SearchProducts } from "components/pages/products/search/search-products";
 
-interface Props {}
-
-const App: FC<Props> = () => {
+const App: FC = () => {
   return <SearchProducts />;
 };
 
